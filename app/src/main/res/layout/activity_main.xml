@@ -18,6 +18,7 @@
             />
 
         <Button
+            android:onClick="handleImplicitIntent"
             android:id="@+id/button_implicit"
             android:text="@string/implicit_intent"
             android:layout_width="match_parent"
